@@ -112,9 +112,58 @@
 # print(upper_case("deepa"))
 # #islower case 
 # lower_case=lambda x:x.islower()
-# print(lower_case("deepa"))
+# print(lower_case("deepa"))p[;]
 # lower_case_case=lambda x:x.islower()
 # print(lower_case("DEEPA"))
 # dinga = lambda text:len(text)
 # print(dinga("rukmini vasanta"))
+# file = open("student.txt", "w")
+# file.write("appu")
+# file.close()
+# print("data written successfully")
+# file = open("student.txt", "r")
+# data=file.read()
+# print(data)
+# file.close()
+# file = open("student.txt", "a")
+# file.write("How are you")
+# file.close()
+# print("data appended successfully")
+# file = open("student.txt", "r")
+# print(file.read())
+# file.close()
 
+#exception handling
+# try:
+#     a=10
+#     b=0
+#     print(a/b)
+# except:
+#     print("something went wrong") 
+# try:
+#     num=int(input("enter number"))
+#     print(num)
+# except ValueError:
+#     print("only number allowed")
+#except
+# try:
+#     a=int(input("enter a:"))
+#     b=int(input("enter b:"))
+#     print(a/b)
+# except ZeroDivisionError:
+#     print("cannot division by zero")
+# except ValueError:
+#     print("only number allowed")
+# try:
+#     file = open("data.txt")
+#     print(file.read())
+# except:
+#     print("file error")
+# finally:
+#     print("program complited")
+try:
+    print(10/2)
+except:
+    print("error")
+else:
+    print("success")
