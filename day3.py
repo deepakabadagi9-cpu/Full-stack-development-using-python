@@ -161,9 +161,9 @@
 #     print("file error")
 # finally:
 #     print("program complited")
-try:
-    print(10/2)
-except:
-    print("error")
-else:
-    print("success")
+# try:
+#     print(10/2)
+# except:
+#     print("error")
+# else:
+#     print("success")
