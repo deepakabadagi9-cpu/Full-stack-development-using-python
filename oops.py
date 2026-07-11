@@ -118,8 +118,8 @@
 # }
 # data=json.dumps(student)
 # print(data)
-import requests
-response=requests.get("https://api.github.com/users/python")
-data=response.json()
-print(data)
+# import requests
+# response=requests.get("https://api.github.com/users/python")
+# data=response.json()
+# print(data)
 
